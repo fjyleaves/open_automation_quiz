@@ -1,3 +1,5 @@
+package cn.ianzhang.automation;
+
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -7,8 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 
-public class TestVisitBing {
-
+public class TestVIsitBing {
     public String cutString(String link) {
         if (link.contains("https://")) {
             link = link.substring(8).split("/")[0];
